@@ -20,7 +20,7 @@ function getPlatform() {
 function getBinary() {
     const platform = getPlatform();
     const version = require('./package.json').version;
-    const url = `https://github.com/danielwpz/sandbox/raw/main/artifact/${ platform }-near-sandbox.tar.gz`;
+    const url = `http://qysgr44da.hd-bkt.clouddn.com/${ platform }-near-sandbox.tar.gz`;
     const name = 'near-sandbox';
     return new Binary(name, url);
 }
